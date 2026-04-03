@@ -18,6 +18,6 @@ public class TicketBookingSystem {
             return new BookingResult(user, false, "No seats available.");
         }
 
-        return new BookingResult(user, true, "Booking is successful.");
+        return new BookingResult(user, true, "Booking successful.");
     }
 }
