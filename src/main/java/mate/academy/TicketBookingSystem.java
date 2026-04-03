@@ -15,9 +15,9 @@ public class TicketBookingSystem {
         boolean seatIsAcquired = seats.tryAcquire();
 
         if (!seatIsAcquired) {
-            return new BookingResult(user, false, "No seats available!");
+            return new BookingResult(user, false, "No seats available.");
         }
 
-        return new BookingResult(user, true, "Booking is successful!");
+        return new BookingResult(user, true, "Booking is successful.");
     }
 }
